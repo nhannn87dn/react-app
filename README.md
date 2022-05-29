@@ -1,6 +1,6 @@
 # Homeworks
 - Bài tập: https://github.com/ngothanhtung/reactjs-tutorials/blob/master/3-Homeworks/Session01/README.md
-- Demo kết quả thực hành Session01 tại xem tại link (https://nhannn87dn.github.io/sharing/).
+- Demo kết quả thực hành Session01 tại xem tại link (https://nhannn87dn.github.io/react-app/).
 
 ## Profile
 
