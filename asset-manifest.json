@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-app/static/css/main.95ca5f76.css",
-    "main.js": "/react-app/static/js/main.46df19a3.js",
+    "main.js": "/react-app/static/js/main.9e9cf02b.js",
     "static/js/787.8f645795.chunk.js": "/react-app/static/js/787.8f645795.chunk.js",
     "static/media/fa-solid-900.ttf": "/react-app/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/fa-brands-400.ttf": "/react-app/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/react-app/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/react-app/index.html",
     "main.95ca5f76.css.map": "/react-app/static/css/main.95ca5f76.css.map",
-    "main.46df19a3.js.map": "/react-app/static/js/main.46df19a3.js.map",
+    "main.9e9cf02b.js.map": "/react-app/static/js/main.9e9cf02b.js.map",
     "787.8f645795.chunk.js.map": "/react-app/static/js/787.8f645795.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95ca5f76.css",
-    "static/js/main.46df19a3.js"
+    "static/js/main.9e9cf02b.js"
   ]
 }
