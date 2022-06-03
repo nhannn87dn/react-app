@@ -14,7 +14,7 @@ const data = [{
     ],
     LightBoxGallerys : [
         {id: 1, link: '/photos/cover1.jpg', alt:''},
-        {id: 2, link: '/photos/cover2.jpg', alt:''},
+        {id: 2, link: '/photos/cover12.jpg', alt:''},
         {id: 3, link: '/photos/cover14.jpg', alt:''},
         {id: 4, link: '/photos/home17.jpg', alt:''},
         {id: 5, link: '/photos/cover5.jpg', alt:''},
