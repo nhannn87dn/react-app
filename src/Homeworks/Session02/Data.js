@@ -7,20 +7,20 @@ const data = [{
         {id: 5, link: '/block-ui-7-images/5.jpg', alt:''}
     ],
     sliderArr : [
-        {id: 1, link: 'http://foundry.mediumra.re/img/cover14.jpg', alt:''},
-        {id: 2, link: 'http://foundry.mediumra.re/img/cover15.jpg', alt:''},
-        {id: 3, link: 'http://foundry.mediumra.re/img/cover16.jpg', alt:''},
-        {id: 4, link: 'http://foundry.mediumra.re/img/cover12.jpg', alt:''}
+        {id: 1, link: '/photos/cover14.jpg', alt:''},
+        {id: 2, link: '/photos/cover15.jpg', alt:''},
+        {id: 3, link: '/photos/cover16.jpg', alt:''},
+        {id: 4, link: '/photos/cover12.jpg', alt:''}
     ],
     LightBoxGallerys : [
-        {id: 1, link: 'http://foundry.mediumra.re/img/cover1.jpg', alt:''},
-        {id: 2, link: 'http://foundry.mediumra.re/img/cover2.jpg', alt:''},
-        {id: 3, link: 'http://foundry.mediumra.re/img/cover14.jpg', alt:''},
-        {id: 4, link: 'http://foundry.mediumra.re/img/home17.jpg', alt:''},
-        {id: 5, link: 'http://foundry.mediumra.re/img/cover5.jpg', alt:''},
-        {id: 6, link: 'http://foundry.mediumra.re/img/cover6.jpg', alt:''},
-        {id: 7, link: 'http://foundry.mediumra.re/img/cover7.jpg', alt:''},
-        {id: 8, link: 'http://foundry.mediumra.re/img/cover8.jpg', alt:''}
+        {id: 1, link: '/photos/cover1.jpg', alt:''},
+        {id: 2, link: '/photos/cover2.jpg', alt:''},
+        {id: 3, link: '/photos/cover14.jpg', alt:''},
+        {id: 4, link: '/photos/home17.jpg', alt:''},
+        {id: 5, link: '/photos/cover5.jpg', alt:''},
+        {id: 6, link: '/photos/cover6.jpg', alt:''},
+        {id: 7, link: '/photos/cover7.jpg', alt:''},
+        {id: 8, link: '/photos/cover8.jpg', alt:''}
     ],
     tabs : [
         {
