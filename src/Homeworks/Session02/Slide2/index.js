@@ -68,7 +68,7 @@ function Slide2({
         </span>
 
         <div className={styles.slide_show}>
-          <img className={styles.fade_in} src={src} alt={currentItem} />
+          <img className={styles.fade_in} src={process.env.PUBLIC_URL + src} alt={currentItem} />
         </div>
         <div
           className={
@@ -93,7 +93,7 @@ function Slide2({
                 {options === "thumbnails" ? (
                   <img
                     className={styles.thumbnails}
-                    src={photo.link}
+                    src={process.env.PUBLIC_URL + photo.link}
                     alt={currentItem}
                   />
                 ) : (

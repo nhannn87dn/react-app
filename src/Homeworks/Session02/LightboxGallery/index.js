@@ -34,7 +34,7 @@ function LightboxGallery({
 
   
 
-  let src = sliderArrs[currentItem - 1].link;
+  let src = process.env.PUBLIC_URL + sliderArrs[currentItem - 1].link;
 
   
 
@@ -70,7 +70,7 @@ function LightboxGallery({
                 onClick={openLightbox}
                
               >
-               <div  className={styles.background_image} style={{backgroundImage: `url(${photo.link})`}}></div> 
+               <div  className={styles.background_image} style={{backgroundImage: `url(${process.env.PUBLIC_URL + photo.link})`}}></div> 
               </li>
             );
           })}
