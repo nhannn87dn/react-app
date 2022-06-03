@@ -54,7 +54,7 @@ function LightboxGallery({
             <span className={styles.btn_next} onClick={handleNext}>
               <FontAwesomeIcon icon="fa-solid fa-angle-right" />
             </span>
-            <img className={styles.fade_in} src={process.env.PUBLIC_URL + src} alt={currentItem} />
+            <img className={styles.fade_in} src={src} alt={currentItem} />
             <span className={styles.btn_close} onClick={closeLightbox}><FontAwesomeIcon icon="fa-solid fa-x" /></span>
           </div>
         
