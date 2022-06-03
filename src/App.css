@@ -23,10 +23,6 @@ p,ul,ol {
   height: 40vmin;
   pointer-events: none;
 }
-.section {
-  display: block;
-  margin: 20px 0;
-}
 .h1 {
   font-size: 40px;
   text-align: center;
@@ -34,13 +30,6 @@ p,ul,ol {
   display: block;
   margin: 0 auto;
 }
-.section__title {
- font-size: 28px;
- margin: 20px 0;
- line-height: 30px;
- font-weight: bold;
-} 
-
 
 .blockChart__wraper {
   display: flex;
