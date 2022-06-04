@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.c89fbdbb.css",
-    "main.js": "/react-app/static/js/main.9e9cf02b.js",
+    "main.css": "/react-app/static/css/main.b5e634f8.css",
+    "main.js": "/react-app/static/js/main.d12279f0.js",
     "static/js/787.8f645795.chunk.js": "/react-app/static/js/787.8f645795.chunk.js",
     "static/media/fa-solid-900.ttf": "/react-app/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/fa-brands-400.ttf": "/react-app/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/react-app/static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
     "static/media/fa-v4compatibility.woff2": "/react-app/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/react-app/index.html",
-    "main.c89fbdbb.css.map": "/react-app/static/css/main.c89fbdbb.css.map",
-    "main.9e9cf02b.js.map": "/react-app/static/js/main.9e9cf02b.js.map",
+    "main.b5e634f8.css.map": "/react-app/static/css/main.b5e634f8.css.map",
+    "main.d12279f0.js.map": "/react-app/static/js/main.d12279f0.js.map",
     "787.8f645795.chunk.js.map": "/react-app/static/js/787.8f645795.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c89fbdbb.css",
-    "static/js/main.9e9cf02b.js"
+    "static/css/main.b5e634f8.css",
+    "static/js/main.d12279f0.js"
   ]
 }
