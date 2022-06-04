@@ -12,12 +12,6 @@ function LightboxGallery({
   /* xác định tổng số lượng hình */
   const totals = sliderArrs.length;
 
-  const openLightbox = () => {
-      setItem(currentItem + 1);
-      setOverlay(styles.slide_overlay + (" ") + styles.slide_display);
-      setSlideshow(styles.slide_show + (" ") + styles.active);
-  }
-
   const closeLightbox = () => {
       setOverlay(styles.slide_overlay);
       setSlideshow(styles.slide_show);
@@ -67,7 +61,11 @@ function LightboxGallery({
               <li
                 key={photo.id.toString()}
                 className={styles.thumbnail_item}
-                onClick={openLightbox}
+                onClick={() => {
+                  setItem(photo.id);
+                  setOverlay(styles.slide_overlay + (" ") + styles.slide_display);
+                  setSlideshow(styles.slide_show + (" ") + styles.active);
+                }}
                
               >
                <div  className={styles.background_image} style={{backgroundImage: `url(${process.env.PUBLIC_URL + photo.link})`}}></div> 
