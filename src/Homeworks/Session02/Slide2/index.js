@@ -57,17 +57,18 @@ function Slide2({
   return (
     <>
       <div className={styles.slide_wrapper}>
-        {/* pre Button */}
-        <span className={styles.pre} onClick={handlePre}>
-          <FontAwesomeIcon icon="fa-solid fa-angle-left" />
-        </span>
-
-        {/* Next Button */}
-        <span className={styles.next} onClick={handleNext}>
-          <FontAwesomeIcon icon="fa-solid fa-angle-right" />
-        </span>
+        
 
         <div className={styles.slide_show}>
+          {/* pre Button */}
+          <span className={styles.pre} onClick={handlePre}>
+            <FontAwesomeIcon icon="fa-solid fa-angle-left" />
+          </span>
+
+          {/* Next Button */}
+          <span className={styles.next} onClick={handleNext}>
+            <FontAwesomeIcon icon="fa-solid fa-angle-right" />
+          </span>
           <img className={styles.fade_in} src={process.env.PUBLIC_URL + src} alt={currentItem} />
         </div>
         <div

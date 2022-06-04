@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    position: relative;
 }
 .slide_show img {
     width: 100%;
