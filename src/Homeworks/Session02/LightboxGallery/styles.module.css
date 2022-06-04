@@ -26,7 +26,8 @@
 }
 
 .slide_show {
-    width: 1200px;
+    max-width: 1200px;
+    width: 90%;
     height: auto;
     max-height: 700px;
     margin: 0 auto;
@@ -137,4 +138,19 @@
 	100% {
 		opacity: 1;
 	}
+}
+
+@media (max-width: 799px) {
+    .thumbnail_item {
+        width: 33.3%;
+        height: 100px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .thumbnail_item {
+        width: 50%;
+        height: 150px;
+    }
+    
 }

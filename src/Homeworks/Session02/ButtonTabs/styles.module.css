@@ -1,8 +1,8 @@
 .button_tab {
-    width: 600px;
+    max-width: 600px;
 }
 .text_tab {
-   width:800px;
+   max-width:800px;
 }
 .tabs__wrapper {
     display: block;
@@ -60,4 +60,16 @@
 .text_tab .tabs__item.current_tab{
     color: #47b475;
     border-bottom: 1px solid #47b475;
+}
+
+@media (max-width: 799px) {
+    .tabs__list {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .tabs__item {
+    
+        margin-top: 2px;
+    }
+    
 }

@@ -1,6 +1,6 @@
 .slide_wrapper {
     position: relative;
-    width: 800px;
+    max-width: 800px;
     height: auto;
     margin: 0 auto;
 }
@@ -76,7 +76,7 @@
     margin: 0;
 }
 .slide_controls_thumbnail img{
-    height: 120px;
+    max-height: 120px;
     width: 100%;
     opacity: .7;
 }
